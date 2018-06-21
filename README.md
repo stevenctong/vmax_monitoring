@@ -10,3 +10,7 @@ https://github.com/influxdata/influxdb-python
 
 Grafana for visualization
 https://grafana.com/
+
+![Dashboard Example](grafana_dashboard.png)
+
+![Architecture](architecture.png)
