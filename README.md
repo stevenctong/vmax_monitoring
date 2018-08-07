@@ -19,9 +19,9 @@ https://grafana.com/
 
 1. Extract the .tar.gz file to a folder, e.g. vmaxdb_backup, on the InfluxDB server
 2. Run the following command:
-'''
+```
 influxdb restore -portable -db vmaxdb -newdb vmaxdb_demo ./vmaxdb_backup
-'''
+```
 That will restore 'vmaxdb' to an InfluxDB database named 'vmaxdb_demo'
 
 ### Grafana dashboard screenshot
