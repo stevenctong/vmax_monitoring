@@ -52,7 +52,7 @@
   "gnetId": null,
   "graphTooltip": 0,
   "id": null,
-  "iteration": 1533652201295,
+  "iteration": 1533655978492,
   "links": [],
   "panels": [
     {
@@ -122,7 +122,7 @@
           "groupBy": [
             {
               "params": [
-                "$__interval"
+                "5m"
               ],
               "type": "time"
             },
@@ -250,7 +250,7 @@
           "groupBy": [
             {
               "params": [
-                "$__interval"
+                "5m"
               ],
               "type": "time"
             },
@@ -1189,7 +1189,7 @@
           "groupBy": [
             {
               "params": [
-                "$__interval"
+                "5m"
               ],
               "type": "time"
             },
@@ -1238,7 +1238,7 @@
           "groupBy": [
             {
               "params": [
-                "$__interval"
+                "5m"
               ],
               "type": "time"
             },
@@ -1265,7 +1265,7 @@
               },
               {
                 "params": [],
-                "type": "mean"
+                "type": "sum"
               }
             ]
           ],
@@ -1366,7 +1366,7 @@
           "groupBy": [
             {
               "params": [
-                "$__interval"
+                "5m"
               ],
               "type": "time"
             },
@@ -1415,7 +1415,7 @@
           "groupBy": [
             {
               "params": [
-                "$__interval"
+                "5m"
               ],
               "type": "time"
             },
@@ -1441,7 +1441,7 @@
               },
               {
                 "params": [],
-                "type": "mean"
+                "type": "sum"
               }
             ]
           ],
@@ -1542,7 +1542,7 @@
           "groupBy": [
             {
               "params": [
-                "$__interval"
+                "5m"
               ],
               "type": "time"
             },
@@ -1592,7 +1592,7 @@
           "groupBy": [
             {
               "params": [
-                "$__interval"
+                "5m"
               ],
               "type": "time"
             },
@@ -1720,7 +1720,7 @@
           "groupBy": [
             {
               "params": [
-                "$__interval"
+                "5m"
               ],
               "type": "time"
             },
@@ -1769,7 +1769,7 @@
           "groupBy": [
             {
               "params": [
-                "$__interval"
+                "5m"
               ],
               "type": "time"
             },
@@ -1911,7 +1911,7 @@
           "groupBy": [
             {
               "params": [
-                "$__interval"
+                "5m"
               ],
               "type": "time"
             },
@@ -1954,7 +1954,7 @@
           "groupBy": [
             {
               "params": [
-                "$__interval"
+                "5m"
               ],
               "type": "time"
             },
@@ -2012,7 +2012,7 @@
       },
       "yaxes": [
         {
-          "format": "short",
+          "format": "MBs",
           "label": null,
           "logBase": 1,
           "max": null,
@@ -2075,7 +2075,7 @@
           "groupBy": [
             {
               "params": [
-                "$__interval"
+                "5m"
               ],
               "type": "time"
             },
@@ -2118,7 +2118,7 @@
           "groupBy": [
             {
               "params": [
-                "$__interval"
+                "5m"
               ],
               "type": "time"
             },
@@ -2160,7 +2160,7 @@
       "thresholds": [],
       "timeFrom": null,
       "timeShift": null,
-      "title": "Storage Group MB/s",
+      "title": "Storage Group Throughput",
       "tooltip": {
         "shared": true,
         "sort": 0,
@@ -2176,7 +2176,7 @@
       },
       "yaxes": [
         {
-          "format": "short",
+          "format": "MBs",
           "label": null,
           "logBase": 1,
           "max": null,
@@ -2239,7 +2239,7 @@
           "groupBy": [
             {
               "params": [
-                "$__interval"
+                "5m"
               ],
               "type": "time"
             },
@@ -2282,7 +2282,7 @@
           "groupBy": [
             {
               "params": [
-                "$__interval"
+                "5m"
               ],
               "type": "time"
             },
@@ -2404,7 +2404,7 @@
           "groupBy": [
             {
               "params": [
-                "$__interval"
+                "5m"
               ],
               "type": "time"
             },
@@ -2447,7 +2447,7 @@
           "groupBy": [
             {
               "params": [
-                "$__interval"
+                "5m"
               ],
               "type": "time"
             },
@@ -2491,7 +2491,7 @@
           "groupBy": [
             {
               "params": [
-                "$__interval"
+                "5m"
               ],
               "type": "time"
             },
@@ -2626,7 +2626,7 @@
           "groupBy": [
             {
               "params": [
-                "$__interval"
+                "5m"
               ],
               "type": "time"
             },
@@ -2669,7 +2669,7 @@
           "groupBy": [
             {
               "params": [
-                "$__interval"
+                "5m"
               ],
               "type": "time"
             },
@@ -2727,7 +2727,7 @@
       },
       "yaxes": [
         {
-          "format": "short",
+          "format": "iops",
           "label": null,
           "logBase": 1,
           "max": null,
@@ -2875,7 +2875,7 @@
       "thresholds": [],
       "timeFrom": null,
       "timeShift": null,
-      "title": "Host MB/s",
+      "title": "Host Throughput",
       "tooltip": {
         "shared": true,
         "sort": 0,
@@ -2891,7 +2891,7 @@
       },
       "yaxes": [
         {
-          "format": "short",
+          "format": "MBs",
           "label": null,
           "logBase": 1,
           "max": null,
@@ -2955,7 +2955,7 @@
           "groupBy": [
             {
               "params": [
-                "$__interval"
+                "5m"
               ],
               "type": "time"
             },
@@ -2998,7 +2998,7 @@
           "groupBy": [
             {
               "params": [
-                "$__interval"
+                "5m"
               ],
               "type": "time"
             },
@@ -3135,7 +3135,7 @@
           "groupBy": [
             {
               "params": [
-                "$__interval"
+                "5m"
               ],
               "type": "time"
             },
@@ -3258,7 +3258,7 @@
           "groupBy": [
             {
               "params": [
-                "$__interval"
+                "5m"
               ],
               "type": "time"
             },
@@ -3300,7 +3300,7 @@
       "thresholds": [],
       "timeFrom": null,
       "timeShift": null,
-      "title": "Port Group Avg I/O Size (kB)",
+      "title": "Port Group Avg I/O Size",
       "tooltip": {
         "shared": true,
         "sort": 0,
@@ -3316,7 +3316,7 @@
       },
       "yaxes": [
         {
-          "format": "short",
+          "format": "deckbytes",
           "label": null,
           "logBase": 1,
           "max": null,
@@ -3400,7 +3400,7 @@
           "groupBy": [
             {
               "params": [
-                "$__interval"
+                "5m"
               ],
               "type": "time"
             },
@@ -3437,7 +3437,7 @@
           "groupBy": [
             {
               "params": [
-                "$__interval"
+                "5m"
               ],
               "type": "time"
             },
@@ -3474,7 +3474,7 @@
           "groupBy": [
             {
               "params": [
-                "$__interval"
+                "5m"
               ],
               "type": "time"
             },
@@ -3678,8 +3678,8 @@
     ]
   },
   "time": {
-    "from": "2018-04-12T23:00:00.000Z",
-    "to": "2018-05-24T08:00:00.000Z"
+    "from": "2018-05-10T07:00:00.000Z",
+    "to": "2018-05-11T07:00:00.000Z"
   },
   "timepicker": {
     "refresh_intervals": [
@@ -3708,5 +3708,5 @@
   },
   "timezone": "",
   "title": "VMAX Dashboard",
-  "version": 8
+  "version": 10
 }
