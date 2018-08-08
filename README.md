@@ -15,7 +15,7 @@ https://grafana.com/
 
 ### Sample InfluxDB data set
 
-'vmaxdb_example.tar.gz' contains a synthetically generated InfluxDB VMAX data set named 'vmaxdb' containing data from 4/12/18 - 5/24/18. It is backed up as an InfluxDB 'portable' backup. To restore this database to InfluxDB use the following example:
+'vmaxdb_example.tar.gz' contains a synthetically generated InfluxDB VMAX data set named 'vmaxdb' containing data from 4/12/18 - 5/24/18. It is backed up as an InfluxDB 'portable' backup. To restore this database to InfluxDB:
 
 1. Extract the .tar.gz file to a folder, e.g. vmaxdb_backup, on the InfluxDB server
 2. Run the following command:
